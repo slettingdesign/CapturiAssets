@@ -16,11 +16,11 @@ window.addEventListener('scroll',(event) => {
 scrollProgress = window.scrollY - rect.top;
 
 
-svgatorMobilizeElement?.svgatorPlayer?.seek((scrollProgress/(rect.height-window.innerHeight))*100)
+svgatorMobilizeElement?.svgatorPlayer?.seek(((scrollProgress/(rect.height-window.innerHeight))*100)-10)
 console.log(scrollProgress);
 console.log(rect.height);
 console.log(window.innerHeight);
-console.log((scrollProgress/(rect.height-window.innerHeight))*100);
+console.log(((scrollProgress/(rect.height-window.innerHeight))*100)-10);
 //console.log(rect.height) ;
 //console.log(window.scrollY) ;
 
