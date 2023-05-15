@@ -1,0 +1,6 @@
+<script>
+window.addEventListener('load', 
+  function() { 
+    alert('hello!');
+  }, false);
+</script>
